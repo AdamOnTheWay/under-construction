@@ -1,0 +1,43 @@
+<html>
+<head>
+
+    <style>
+
+        body {
+            background:#ddd;
+        }
+        #keleyi {
+            width: 220px;
+            height: 220px;
+            margin: 0 auto;
+            background: no-repeat url("http://keleyi.com/image/a/q5l1xnmf.jpg") left top;
+            -webkit-background-size: 220px 220px;
+            -moz-background-size: 220px 220px;
+            background-size: 220px 220px;
+            -webkit-border-radius: 110px;
+            border-radius: 110px;
+            -webkit-transition: -webkit-transform 20s linear;
+            -moz-transition: -moz-transform 20s linear;
+            -o-transition: -o-transform 20s linear;
+            -ms-transition: -ms-transform 20s linear;
+        }
+        /*#keleyi:hover{*/
+            /*-webkit-transform: rotateZ(720deg);*/
+            /*-moz-transform: rotateZ(720deg);*/
+            /*-o-transform: rotateZ(720deg);*/
+            /*-ms-transform: rotateZ(720deg);*/
+            /*transform: rotateZ(720deg);*/
+        /*}*/
+    </style>
+    <script type="text/javascript">
+        function rotate11(){
+            var exx = document.getElementById("keleyi");
+            exx.style.webkitTransform="rotate(300deg)"
+        }
+    </script>
+</head>
+<body onload="rotate11()">
+<div id="keleyi"></div>
+
+</body>
+</html>
